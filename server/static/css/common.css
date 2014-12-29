@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.header{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header div{
+    display: inline-block;
+}

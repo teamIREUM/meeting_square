@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>
+      {% block title %}
+      {% endblock %}
+    </title>
+    <link rel="stylesheet" type="text/css" href="{{config.STATIC_URL}}/css/common.css">
+    {% block css %}
+    {% endblock %}
+    {% block js %}
+    {% endblock %}
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">만남의 광장</div>
+      <div class="home">홈</div>
+      <div class="meetings">광장</div>
+    </div>
+    <div class="content">
+      {% block content %}
+      {% endblock %}
+    </div>
+    {% block lazy_script %}
+    {% endblock %}
+  </body>
+</html>

@@ -1,0 +1,6 @@
+
+#virtualenv
+.env/
+
+#python_compile
+*.pyc
